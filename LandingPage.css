@@ -1,0 +1,54 @@
+body {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  height: 100vh;
+  margin: 0; 
+  background-color: white;
+}
+
+.container {
+  width: 90%;
+  height: 80vh;
+  max-width: 800px;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+  background-image:url("gaming.jpg");
+  background-size: cover;
+  
+}
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: end;
+padding-top: 12%;
+padding-right: 20px;
+}
+.right h1{
+  color: aliceblue;
+}
+.right p{
+   color: white;
+   width: 30vw;
+}
+h1{
+  margin: 0;
+}
+button {
+  padding: 6px;
+  background: linear-gradient(120deg,rgb(218, 116, 43),pink);
+  border: none;
+  width: 6vw;
+  border-radius: 50px;
+  margin-left: 40%;
+  font-weight: bolder;
+  
+}
+button:hover{
+  background: green;
+}
+
+
