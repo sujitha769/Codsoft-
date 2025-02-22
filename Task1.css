@@ -143,5 +143,7 @@ border-radius: 20px;
 .achvleft h4{
   color: white;
 }
-
+.achvleft:hover{
+  background-color:rgba(111, 72, 72, 0.483);
+}
 
