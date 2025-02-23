@@ -115,7 +115,7 @@ border-radius: 20px;
 }
 .lefthead h1 {
   background: linear-gradient(90deg,rgb(116, 185, 228), rgb(224, 14, 224));
-  -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -125,7 +125,7 @@ border-radius: 20px;
 }
 .center h1{
   background: linear-gradient(black,blue);
-  -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 
 }
@@ -146,4 +146,5 @@ border-radius: 20px;
 .achvleft:hover{
   background-color:rgba(111, 72, 72, 0.483);
 }
+
 
