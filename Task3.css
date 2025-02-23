@@ -24,7 +24,7 @@ body {
   flex-direction: column;
   justify-content: end;
   align-items: end;
-padding-top: 12%;
+padding-top: 5%;
 padding-right: 20px;
 }
 .right h1{
@@ -37,27 +37,45 @@ padding-right: 20px;
 h1{
   margin: 0;
 }
-button {
-  padding: 6px;
-  background: linear-gradient(120deg,rgb(218, 116, 43),pink);
-  border: none;
-  width: 6vw;
-  border-radius: 50px;
-  margin-left: 40%;
-  font-weight: bolder;
-  
-}
 
 button:hover{
   background: green;
 }
 .b1{
-  margin-top: 2px;
+  margin-right: 12px;
 }
+
 .submit{
-  display: grid;
-  
-  gap: 2px;
+  display: flex;
+ flex-direction: row;
+ justify-content: center;
+ background: antiquewhite;
+ padding: 1px;
+ background:none;
+ margin-left: 350px;
 }
+button{
+  background-color: black;
+  color:white;
+  font-weight: bolder;
+  border: none;
+  padding: 6px;
+  border: solid 1px green;
+  border-radius: 4px;
+}
+.footer{
 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: white;
+  font-weight: lighter;
 
+  margin-top: 180px;
+}
+.head{
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
